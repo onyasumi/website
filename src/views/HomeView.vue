@@ -63,7 +63,7 @@ library.add(faEnvelope)
         margin-top: -2px;
         max-width: 0px;
         overflow: hidden;
-        transition: max-width 1.5s linear;
+        transition: max-width 1s linear;
       }
     }
 

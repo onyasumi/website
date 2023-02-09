@@ -1,15 +1,17 @@
 <template>
-  <div class="about">
-    <h1>Resume Goes Here</h1>
+  <div class="content">
+    <a href="https://franktao.com/files/resume.pdf" target="_blank"><h1>View in new tab</h1></a>
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped lang="scss">
+.content {
+  width: 35%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 </style>
