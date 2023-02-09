@@ -3,12 +3,12 @@ import NavbarIcon from './NavbarIcon.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHouse, faCode, faFileInvoice, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faCode, faFileInvoice, faLink } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faHouse);
 library.add(faCode);
 library.add(faFileInvoice);
-library.add(faPhone);
+library.add(faLink);
 </script>
 
 <template>
@@ -33,7 +33,7 @@ library.add(faPhone);
 
     <NavbarIcon>
       <template #icon>
-        <font-awesome-icon icon="fa-solid fa-phone" size="lg"/>
+        <font-awesome-icon icon="fa-solid fa-link" size="lg"/>
       </template>
     </NavbarIcon>
   </div>
@@ -44,7 +44,7 @@ library.add(faPhone);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px;
+    margin: 80px;
   }
 
   font-awesome-icon {

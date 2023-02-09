@@ -58,7 +58,14 @@
 
 @font-face {
   font-family: 'Geliat';
-  src: url('@/src/assets/geliatlight.otf') format('otf');
+  src: url('@/assets/geliatlight.otf') format('opentype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kiona';
+  src: url('@/assets/kiona.ttf') format('truetype');
   font-weight: light;
   font-style: normal;
 }
@@ -78,7 +85,7 @@ body {
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
-  font-family: Geliat;
+  font-family: 'Geliat';
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

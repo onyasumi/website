@@ -16,7 +16,7 @@ import NavigationBar from './components/NavigationBar.vue'
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/projects">Projects</RouterLink>
           <RouterLink to="/resume">Resume</RouterLink>
-          <RouterLink to="/contact">Contact</RouterLink>
+          <RouterLink to="/links">Links</RouterLink>
         </nav>
       </div>
     </div>
@@ -34,9 +34,10 @@ header {
 }
 
 h1 {
-  font-weight: 500;
-  font-size: 4rem;
-  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 6rem;
+  font-family: 'Kiona';
+  margin-bottom: -20px;
 
   &.color {
     color: var(--color-text-accent-1);
