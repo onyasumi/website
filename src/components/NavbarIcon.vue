@@ -1,14 +1,12 @@
 <script lang="ts">
   export default {
-    props: {
-      routerLink: String
-    }
+    props: ["routerLink"]
   }
 </script>
 
 <template>
   <div class="container">
-    <RouterLink :to="this.routerLink">
+    <RouterLink :to="routerLink">
       <i class="item">
         <slot name="icon"></slot>
       </i>
