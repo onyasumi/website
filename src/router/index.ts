@@ -6,12 +6,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'Frank Tao | Home',
+      component: HomeView,
     },
     {
       path: '/projects',
-      name: 'projects',
+      name: 'Frank Tao | Projects',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -19,7 +19,7 @@ const router = createRouter({
     },
     {
       path: '/resume',
-      name: 'resume',
+      name: 'Frank Tao | Resume',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -27,7 +27,7 @@ const router = createRouter({
     },
     {
       path: '/links',
-      name: 'links',
+      name: 'Frank Tao | Links',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -35,5 +35,10 @@ const router = createRouter({
     }
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = to.name;
+  next();
+});
 
 export default router
