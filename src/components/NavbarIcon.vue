@@ -1,8 +1,18 @@
+<script lang="ts">
+  export default {
+    props: {
+      routerLink: String
+    }
+  }
+</script>
+
 <template>
-  <div class="item-container">
-    <i class="item">
-      <slot name="icon"></slot>
-    </i>
+  <div class="container">
+    <RouterLink :to="this.routerLink">
+      <i class="item">
+        <slot name="icon"></slot>
+      </i>
+    </RouterLink>
   </div>
 </template>
 
@@ -14,17 +24,27 @@
     place-content: center;
     color: var(--color-text);
     border: 1px solid var(--color-border);
-    background: var(--color-background);
+    background: var(--color-background-mute);
     border-radius: 8px;
     width: 50px;
     height: 50px;
   }
 
-  .item-container {
+  .container {
     height: 130px;
+
+    a:hover .item {
+      border-color: var(--color-text-accent-2);
+      transition: border-color .5s;
+    }
+
+    a.router-link-exact-active .item {
+      border-color: var(--color-text-accent-1);
+      transition: border-color .5s;
+    }
   }
 
-  .item-container:after {
+  .container:after {
     content: ' ';
     display: inline-block;
     border-left: 1px solid var(--color-border);
@@ -32,11 +52,11 @@
     margin: 0 25px;
   }
 
-  .item-container:last-of-type {
+  .container:last-of-type {
     height: 50px;
   }
 
-  .item-container:last-of-type:after {
+  .container:last-of-type:after {
     display: none;
   }
 </style>

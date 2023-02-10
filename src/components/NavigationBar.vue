@@ -13,25 +13,25 @@ library.add(faLink);
 
 <template>
   <div class="bar">
-    <NavbarIcon>
+    <NavbarIcon routerLink="/">
       <template #icon>
         <font-awesome-icon icon="fa-solid fa-house" size="lg"/>
       </template>
     </NavbarIcon>
 
-    <NavbarIcon>
+    <NavbarIcon routerLink="/projects">
       <template #icon>
         <font-awesome-icon icon="fa-solid fa-code" size="lg"/>
       </template>
     </NavbarIcon>
 
-    <NavbarIcon>
+    <NavbarIcon routerLink="/resume">
       <template #icon>
         <font-awesome-icon icon="fa-solid fa-file-invoice" size="lg"/>
       </template>
     </NavbarIcon>
 
-    <NavbarIcon>
+    <NavbarIcon routerLink="/links">
       <template #icon>
         <font-awesome-icon icon="fa-solid fa-link" size="lg"/>
       </template>

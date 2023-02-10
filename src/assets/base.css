@@ -31,9 +31,6 @@
   --color-background-mute: var(--vt-c-white-mute);
 
   --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
 
   --color-text-accent-1: var(--vt-c-text-light-accent-1);
@@ -49,9 +46,6 @@
     --color-background-mute: var(--vt-c-black-mute);
 
     --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
   }
 }
@@ -81,7 +75,7 @@
 
 body {
   color: var(--color-text);
-  background: var(--color-background);
+  background: var(--color-background-mute);
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-family: 'Geliat';

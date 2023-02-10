@@ -1,8 +1,8 @@
 <script lang="ts">
 import VuePdfEmbed from 'vue-pdf-embed'
 
-let reRenderPdf : number = 0;
-let isLoading : boolean = true;
+let reRenderPdf: number = 0;
+let isLoading: boolean = true;
 
 export default {
   components: {
