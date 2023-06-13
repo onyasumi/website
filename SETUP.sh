@@ -19,7 +19,7 @@ sudo cp franktao.com /etc/nginx/sites-available
 sudo ln -sf /etc/nginx/sites-available/franktao.com /etc/nginx/sites-enabled/franktao.com
 sudo systemctl restart nginx
 
-if ! command -v <the_command> &> /dev/null
+if ! command -v certbot &> /dev/null
 then
     echo "Certbot not found. SSL certificates will not be installed."
     exit
