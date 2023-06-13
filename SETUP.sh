@@ -8,7 +8,7 @@ fi
 
 # Download and build site
 cd /var/www
-sudo git clone https://github.com/bloodandcoffee/website.git
+sudo git clone https://github.com/onyasumi/website.git
 sudo chown -R kaneki website
 cd website
 npm install
