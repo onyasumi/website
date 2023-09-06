@@ -1,7 +1,11 @@
 <template>
-  <a class="link" href="https://github.com/bloodandcoffee/akasugi" target="_blank" rel="noopener noreferrer">
-    <h1>Akasugi</h1>
-    <h3>A japanese input method for Wayland</h3>
+  <a class="link" href="https://github.com/onyasumi/vega" target="_blank" rel="noopener noreferrer">
+    <h1>Vega</h1>
+    <h3>A neofetch replacement</h3>
+  </a>
+  <a class="link" href="https://github.com/onyasumi/potechi" target="_blank" rel="noopener noreferrer">
+    <h1>Potechi</h1>
+    <h3>A CHIP-8 virtual machine</h3>
   </a>
   <a class="link" href="https://github.com/karatsubalabs/sashimi-backend" target="_blank" rel="noopener noreferrer">
     <h1>Sashimi</h1>
@@ -19,9 +23,9 @@
     <h1>Widgethub</h1>
     <h3>Generate web widgets easily</h3>
   </a>
-  <a class="link" href="https://github.com/bloodandcoffee/cluster" target="_blank" rel="noopener noreferrer">
+  <a class="link" href="https://github.com/onyasumi/cluster" target="_blank" rel="noopener noreferrer">
     <h1>Cluster</h1>
-    <h3>Python3 photo injest & sorting tool</h3>
+    <h3>Python3 photo ingest & sorting tool</h3>
   </a>
 </template>
 
@@ -46,3 +50,5 @@
   }
 }
 </style>
+<script setup lang="ts">
+</script>

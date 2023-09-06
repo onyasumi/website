@@ -38,7 +38,7 @@ header {
   h1 {
     font-weight: 600;
     font-size: 6rem;
-    font-family: 'Kiona';
+    font-family: 'LemonMilk';
     white-space: nowrap;
     margin-bottom: -20px;
 

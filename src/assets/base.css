@@ -58,8 +58,8 @@
 }
 
 @font-face {
-  font-family: 'Kiona';
-  src: url('@/assets/kiona.ttf') format('truetype');
+  font-family: 'LemonMilk';
+  src: url('@/assets/lemonmilk-light.otf') format('truetype');
   font-weight: light;
   font-style: normal;
 }
